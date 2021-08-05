@@ -52,5 +52,5 @@ while True:
 		
 		print(jmatin+'['+BGreen+f'{Number}'+jmatin+'] HAYA'+BGreen+f' [@{user}]')
 		tt=time.asctime()	
-		req = requests.post(f'https://api.telegram.org/bot{tok}/sendMessage?chat_id={id}&text=⌯  NEW USER ⌯\n. — — — — —  — — — — — . \n⌯ ᴜѕᴇʀɴᴀᴍᴇ : @{user}\n⌯ {tt} \n. — — — — —  — — — — —\n• Tele : @@ofl0l . @ofl0l .')          	
+		req = requests.post(f'https://api.telegram.org/bot{tok}/sendMessage?chat_id={id}&text=⌯  NEW USER ⌯\n. — — — — —  — — — — — . \n⌯ ᴜѕᴇʀɴᴀᴍᴇ : @{user}\n⌯ {tt} \n. — — — — —  — — — — —\n• Tele : @ofl0l . @ofl0l .')          	
 		
